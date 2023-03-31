@@ -1,0 +1,35 @@
+h1{
+    color: red;
+    text-align: center;
+    }
+h5{
+    text-align: center;
+}
+
+.background-image {
+    position: center;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+        background-color: white ; opacity: 1;
+    z-index: -1 /* pour positionner l'élément derrière les autres éléments de la page */
+  }
+
+  
+body{
+    background-image: url("images/414698.jpg");
+    background-position:center;
+    position: center;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.1;
+}
+    
+form{
+    text-align: center;
+}
+
+

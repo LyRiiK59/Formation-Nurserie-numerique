@@ -1,0 +1,162 @@
+<h1> Hello World ! </h1>
+<p> Je suis un paragraphe <br/>
+Je suis la deuxième ligne du paragraphe <br/>
+Je suis la troisième ligne du paragraphe
+</p>
+<form action="/search" method="GET">
+    <label for="search">Rechercher :</label>
+    <input type="text" id="search" name="q" placeholder="Entrez votre recherche ici">
+    <button type="submit">Rechercher</button>
+</form>
+
+<div class="search-container">
+    <form action="/search">
+      <input type="text" placeholder="Rechercher..." name="search">
+      <button type="submit"><i class="fa fa-search"></i></button>
+    </form>
+  </div>
+
+  <!DOCTYPE html>
+  <html>
+    <head>
+      <title>Barre de recherche stylisée</title>
+      <style>
+        /* Styles pour la barre de recherche */
+        .search-container {
+          display: flex;
+          align-items: center;
+          background-color: #c1d5c0;
+          padding: 5px;
+          border-radius: 20px;
+          box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+          width: 400px;
+          margin: 0 auto;
+        }
+  
+        .search-container input[type="text"] {
+          flex: 1;
+          border: none;
+          background-color: transparent;
+          font-size: 18px;
+          color: #24e213;
+          padding: 5px;
+          outline: none;
+        }
+        
+        .search-container button {
+          border: none;
+          background-color: #20cd2b;
+          color: #fff;
+          padding: 8px 15px;
+          border-radius: 20px;
+          font-size: 18px;
+          cursor: pointer;
+          margin-left: 5px;
+          box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+        }
+        </style>
+    </head>
+    <body>
+      <div class="search-container">
+        <input type="text" placeholder="Recherche...">
+        <button type="submit">Rechercher</button>
+      </div>
+    </body>
+    </html>
+    
+    <!DOCTYPE html>
+<html>
+  <head>
+    <title>Effet de fondu entre deux images</title>
+    <style>
+      /* Styles pour les images */
+      .image-container {
+        position: relative;
+        width: 500px;
+        height: 300px;
+        margin: 0 auto;
+      }
+      
+      .image-container img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition: opacity 0.5s ease-in-out;
+      }
+      .img2{
+        opacity: 0;
+      }
+      
+      /* Styles pour l'effet de fondu */
+      .image-container:hover img:first-child {
+        opacity: 0;
+      }
+      .image-container:hover .img2 {
+        opacity: 1;
+      }
+      </style>
+  </head>
+  <body>
+    <div class="image-container">
+      <img src="images/logo cardfinder.jpg" alt="images/logo_cardfinder.jpg" class="img1">
+      <img src="images/logo cardfinder2.jpg" alt="images/logo_cardfinder2.jpg" class="img2">
+    </div>
+  </body>
+  </html>
+  
+  <!DOCTYPE html>
+<html>
+<head>
+  <title>Exemple de page</title>
+</head>
+<body>
+  <h1>Titre principal</h1>
+	<h2>Titre secondaire 1</h2>
+	<p>Ceci est un paragraphe pour le titre secondaire 1.</p>
+	<h3>Titre 3 pour le titre secondaire 1</h3>
+	<p>Ceci est un autre paragraphe pour le titre secondaire 1.</p>
+	<h2>Titre secondaire 2</h2>
+	<p>Ceci est un paragraphe pour le titre secondaire 2.</p>
+	<h3>Titre 3 pour le titre secondaire 2</h3>
+	<p>Ceci est un autre paragraphe pour le titre secondaire 2.</p>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Effet stroboscope sur une image</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <style>
+      
+      body {
+        position: relative;
+        animation: strobe 0.1s infinite;
+      }
+      
+      @keyframes strobe {
+        
+        0% {
+          background-color: black;
+        }
+        50% {
+          background-color: rgb(247, 3, 3);
+        }
+      } </style>
+</head>
+<body>
+  <div class="strobe">
+    <img src="images/logo cardfinder.jpg" alt="logo_cardfinder">
+  </div>
+</body>
+</html>
+
+
+
+
+<a href="http://www.google.fr">
+  <img src="images/logo cardfinder.jpg" alt="logo cardfinder">
+</a>

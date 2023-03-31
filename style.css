@@ -6,8 +6,13 @@ header{
 background-color:aquamarine;
 }
 
+aside{
+    text-align: right;
+}
+
+
 nav{
-text-align: left;
+text-align:left;
 }
 
 section{
