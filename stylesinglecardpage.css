@@ -1,0 +1,77 @@
+.main-content {
+
+}
+
+section {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.card-presentation {
+    background-color: aquamarine;
+}
+
+.icon-advanced-search {
+    background-color: aquamarine;
+    width: 200px;
+    height: 40px;
+    margin-left: 1%;
+    display: flex;
+    padding: 2px;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 5px 5px 0px 0px;
+}
+
+table {
+    border-collapse: collapse;
+    background-color: aquamarine;
+    margin: auto;
+    border-top-right-radius: 5px;
+    width: 100%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+tbody {
+    background-color: white;
+}
+
+td {
+    border: 2px solid black;
+    font-size: small;
+    padding: 10px;
+    height: 5px;
+}
+
+th {
+    font-size: large;
+    padding: 5px;
+}
+
+.seller-information {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: start;
+    padding-left: 10px;
+    gap: 6px;
+}
+
+.sell-count {
+    background-color: lightgray;
+    padding: 4px;
+    border-radius: 5px;
+}
+
+.cote {
+    display: flex;
+    justify-content: flex-end;
+    align-content: center;
+}
+
+
+
+
+
+
