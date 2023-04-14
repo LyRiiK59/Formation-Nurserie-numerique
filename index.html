@@ -1,62 +1,103 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
-    <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cardfinder Accueil</title>
+    <title>Cardfinder/Accueil</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="images/logo_cardfinder.jpg">
 </head>
 
-<header>
-    <a href="https://cardfinder.Com"><img src="images/logo_cardfinder.jpg" alt="" width="300"></a>
-    <form action="search" method="get">
-        <input type="search" name="search" id="" placeholder=Rechercher>
-    </form>
-    <a href="https://cardfinder.Com/search"><img src="images/loupe.png" alt="" width="75"></a>
-    <a href="https://cardfinder.com/mail"><img src="images/message.png" alt="" width="90"></a>
-    <a href="https://cardfinder.com/profil"><img src="images/profil.png" alt="" width="50"></a>
-    <a href="https://cardfinder.com/market"><img src="images/panier.png" alt="" width="50"></a>
-    <a href="https://cardfinder.com/help"><img src="images/aide.png" alt="" width="50"></a>
-</header>
-
 <body>
+    <header>
+        <h1><a id="logo" href="index.html"><img src="images/logo_cardfinder.jpg" alt="logo"></a></h1>
+        <form action="/search.html" method="get">
+            <input type="search" name="search-bar" id="search" placeholder=Rechercher>
+            <button type="submit"><a class="icone1" href="search.html"><img src="images/loupe.png" alt="loupe" ></a></button>
+        </form>
+        <div id="icone"> 
+            <a class="icone2" href="mail.html"><img src="images/message.png" alt="message" ></a>
+            <a class="icone3" href="profil.html"><img src="images/profil.png" alt="profil" ></a>
+            <a class="icone4" href="market.html"><img src="images/panier.png" alt="panier" ></a>
+        </div>
+    </header>
 
-<br>
-<nav><a href="https://cardfinder.Com" alt="fil d'ariane">Accueil /</a>
+    <br>
+    <nav id="ariane">
+        <a href="index.html" alt="ariane">Accueil</a> /
+    </nav>
 
-<section>
-    <article>
-        <a href="https://cardfinder.Com/nouveaute">
-            <img src="images/beard.jpg" alt="" width="320" height="320">
-        </a>
-        <p>Nouveauté</p>
-    </article>    
-<a href="https://cardfinder.Com/topSell"><img src="images/4579628-fantasy-art-artwork-taurens-magic-the-gathering.jpg" alt="" width="320" height="320"></a>
-<a href="https://cardfinder.Com/topLessPrice"><img src="images/magicien.jpg" alt="" width="320" height="320"></a>
-<a href="https://cardfinder.Com/spoilers"><img src="images/im.jpg" alt="" width="320" height="320"></a>
-<a href="https://cardfinder.Com/products"><img src="images/Planeswalkers_cover.jpg" alt="" width="320" height="320"></a>
-<a href="https://cardfinder.Com/dlc"><img src="images/evil.jpg" alt="" width="320" height="320"></a>
-<a href="https://cardfinder.Com/token"><img src="images/magic-the-gathering-artist-suspended-after-fan-art-plagiaris_psue.jpg" alt="" width="320" height="320"></a>
-<a href="https://cardfinder.Com/proxie"><img src="images/mage.jpg" alt="" width="320"></a>
-</section>
+    <main>
+            <section id="flexbox1">
+                <article class="news">
+                    <a href="nouveautés.html">
+                        <img src="images/beard.jpg" alt="news">
+                    </a>
+                    <h2 class="link">Nouveautés</h2>
+                </article> 
+                
+                <article class="sells">
+                    <a href="sells.html">
+                        <img src="images/4579628-fantasy-art-artwork-taurens-magic-the-gathering.jpg" alt="sells"</a>
+                    </a>
+                    <h2 class="link">Top des ventes</h2>
+                </article>
 
-<p>Top des ventes</p>
-<p>Top chute de prix</p>
-<p>Spoilers</p>
-<p>Produits</p>
-<p>Extensions</p>
-<p>Token</p>
-<p>Proxies</p>
+                <article>
+                    <a href="less_Price.html">
+                        <img src="images/magicien.jpg" alt="less_price"></a>
+                    </a>
+                    <h2 class="link">Chutes de prix</h2>
+                </article>
+
+                <article>
+                    <a href="spoilers.html">
+                        <img src="images/im.jpg" alt="spoilers"></a>
+                    </a>
+                    <h2 class="link">Spoilers</h2>
+                </article>
+            </section>
+                <br>
+            <section id="flexbox2">
+                <article>
+                    <a href="products.html">
+                        <img src="images/Planeswalkers_cover.jpg" alt="products"></a>
+                    </a>
+                    <h2 class="link">Produits</h2>
+                </article>
+
+                <article>
+                    <a href="extensions.html">
+                        <img src="images/evil.jpg" alt="extensions"></a>
+                    </a>
+                    <h2 class="link">Extensions</h2>
+                </article>
+
+                <article>
+                    <a href="tokens.html">
+                        <img src="images/magic-the-gathering-artist-suspended-after-fan-art-plagiaris_psue.jpg" alt="tokens"></a>
+                    </a>
+                    <h2 class="link">Tokens</h2>
+                </article>
+
+                <article>
+                    <a href="proxies.html">
+                        <img src="images/mage.jpg" alt="proxies"></a>
+                    </a>
+                    <h2 class="link">Proxies</h2>
+                </article>
+            </section>
+    </main>
+
+    <footer>
+        <h2 id="informations">Informations</h2>
+            <h3 class="copyright">Copyright &copy;</h3>   
+            <h3 class="Confidentialité"><a href="confidentialité.html">Confidentialité</a></h3>
+            <h3 class="CGV-U"><a href="CGV-U.html">Conditions générales de vente et d'utilisation</a></h3>
+            <h3 class="legal"><a href="who_are_we.html">Mentions légales</a></h3>
+            <h3 class="contact_us"><a href="contact_us.html">Nous contacter</a></h3>
+    </footer>
 </body>
 
-<footer>
-    <p>Informations</p>
-   <p>Copyright &copy;   
-    <a href="https://cardfinder.Com/confidentiality">Confidentialité</a>
-       <a href="https://cardfinder.Com/CGV-U">Conditions générales de vente et d'utilisation</a>
-       <a href="https://cardfinder.Com/whoAreWe">Mentions légales</a>
-       <a href="https://cardfinder.Com/contactUs">Nous contacter</a></p> 
-
-</footer>
 </html>
