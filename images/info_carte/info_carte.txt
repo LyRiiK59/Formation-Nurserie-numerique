@@ -1,0 +1,210 @@
+Nom : Lunarch Veteran
+Couleur : white
+Rareté : common
+Nombre : 27
+Articles disponibles : +7200
+descriptif : 
+.À chaque fois qu une autre créature arrive sur le champ de bataille sous votre contrôle, vous gagnez 1 vie.
+.Vous pouvez lancer cette carte depuis votre cimetière transformée pour son coût de dérangement
+
+
+
+Nom : Voja, Friend to Elves
+Couleur : white
+Rareté : Token
+Nombre : T17
+Articles disponibles : +2000
+descriptif : aucun
+
+
+
+Nom : Gideon Jura
+Couleur : white
+Rareté : Mythic
+Nombre : 24
+Articles disponibles : +650
+descriptif : 
+.Pendant le prochain tour de l adversaire ciblé, les créatures que ce joueur contrôle attaquent Gideon Jura si possible.
+.Détruisez la créature engagée ciblée.
+.Jusqu à la fin du tour, Gideon Jura devient une créature 6/6 Humain et Soldat qui est toujours un planeswalker.
+    Prévenez toutes les blessures qui devraient lui être infligées ce tour-ci.
+
+
+
+Nom : Ugin, the Spirit Dragon
+Couleur : colorless
+Rareté : Mythic
+Nombre : 1
+Articles disponibles : +
+descriptif : 
+.+2: Ugin, le dragon-esprit inflige 3 blessures à n importe quelle cible.
+.-X: Exilez chaque permanent avec un coût converti de mana inférieur ou égal à X qui a au moins une couleur.
+.-10: Vous gagnez 7 points de vie, piochez sept cartes, puis mettez sur le champ de bataille jusqu à sept cartes de permanent depuis votre main.
+
+
+
+Nom : Jace Beleren
+Couleur : blue
+Rareté : Mythic
+Nombre : 001
+Articles disponibles : +2100
+descriptif : 
+.+2 : Chaque joueur pioche une carte.
+.-1 : Le joueur ciblé pioche une carte.
+.-10 : Le joueur ciblé met les vingt cartes du dessus de sa bibliothèque dans son cimetière.
+
+
+
+Nom : Chandra Nalaàr
+Couleur : red
+Rareté : Rare
+Nombre : 159
+Articles disponibles : +1300
+descriptif : 
+.+1 : Chandra Nalaàr inflige 1 blessure au joueur ciblé.
+.-X : Chandra Nalaàr inflige X blessures à la créature ciblée.
+.-8 : Chandra Nalaàr inflige 10 blessures au joueur ciblé et à chaque créature qu il contrôle.
+
+
+
+Nom : Jeska, Thrice Reborn
+Couleur : red
+Rareté : Mythic
+Nombre : 186
+Articles disponibles : +500
+descriptif : 
+.Jeska, trois fois renaissante arrive sur le champ de bataille avec un marqueur « loyauté » sur elle pour chaque fois que vous avez lancé un commandant depuis la zone de commandement pendant cette partie.
+.0: Choisissez une créature ciblée. Jusqu à votre prochain tour, si cette créature devait infliger des blessures de combat à l un de vos adversaires, elle inflige à ce joueur le triple de ces blessures à la place.
+.-X: Choisissez jusqu à trois cibles. Jeska, trois fois renaissante inflige X blessures à chacune d elles.
+
+
+
+Nom : Liliana Vess
+Couleur : black
+Rareté : Rare
+Nombre : 121
+Articles disponibles : +650
+descriptif : 
+.+1 : Le joueur ciblé se défausse d une carte.
+.-2 : Cherchez une carte dans votre bibliothèque, puis mélangez votre bibliothèque et mettez cette carte au-dessus d elle.
+.-8 : Mettez sur le champ de bataille, sous votre contrôle, toutes les cartes de créature de tous les cimetières.
+
+
+
+Nom : Nicol Bolas, le dévastateur
+Couleur : black,blue,red
+Rareté : Mythic
+Nombre : 218
+Articles disponibles : +600
+descriptif : 
+.Quand Nicol Bolas, le dévastateur arrive sur le champ de bataille, chaque adversaire se défausse d une carte.
+.Exilez Nicol Bolas, le dévastateur, puis renvoyez-le sur le champ de bataille, transformé, sous le contrôle de son propriétaire.
+    N activez cette capacité que lorsque vous pourriez lancer un rituel.
+
+
+
+Nom : Nissa, Ascended Animist
+Couleur : green
+Rareté : Mythic
+Nombre : 175
+Articles disponibles : +1600
+descriptif : 
+.+1: Créez un jeton de créature X/X verte Phyrexian et Horreur, X étant la loyauté de Nissa, animiste ascendue.
+.-1: Détruisez une cible, artefact ou enchantement.
+.-7: Jusqu à la fin du tour, les créatures que vous contrôlez gagnent +1/+1 pour chaque forêt que vous contrôlez et acquièrent le piétinement.
+
+
+
+Nom : Ashnod the Uncaring
+Couleur : black,blue,red
+Rareté : Mythic
+Nombre : 4
+Articles disponibles : +2800
+descriptif : 
+.À chaque fois que vous activez une capacité d un artefact ou d une créature qui n est pas une capacité de mana, si un ou plusieurs permanents ont été sacrifiés pour l activer, vous pouvez copier cette capacité.
+    Vous pouvez choisir de nouvelles cibles pour la copie
+
+
+
+Nom : Ajani Crinièredor
+Couleur : white
+Rareté : Rare
+Nombre : 1
+Articles disponibles : +800
+descriptif : 
+.+1 : Vous gagnez 2 points de vie.
+.-1 : Mettez un marqueur +1/+1 sur chaque créature que vous contrôlez. Ces créatures acquièrent la vigilance jusqu à la fin du tour.
+.-6 : Mettez sur le champ de bataille un jeton de créature blanche Avatar. 
+    Il a « La force et l endurance de cette créature sont chacune égale à votre total de points de vie. »
+
+
+
+Nom : Tamiyo, Field Researcher
+Couleur : green,white,blue
+Rareté : Mythic
+Nombre : 190
+Articles disponibles : +850
+descriptif : 
+.+1 : Choisissez jusqu à deux créatures ciblées. 
+    Jusqu à votre prochain tour, à chaque fois qu une de ces créatures inflige des blessures de combat, vous piochez une carte.
+.-2 : Engagez jusqu à deux permanents non-terrain ciblés. 
+    Ils ne se dégagent pas pendant la prochaine étape de dégagement de leur contrôleur.
+.-7 : Piochez trois cartes. 
+    Vous gagnez un emblème avec « Vous pouvez lancer des cartes non-terrain depuis votre main sans payer leur coût de mana. »
+
+
+
+Nom : Atraxa, Grand Unifier
+Couleur : green,white,blue,black
+Rareté : Mythic
+Nombre : 196
+Articles disponibles : +700
+descriptif : 
+.Quand Atraxa arrive sur le champ de bataille, révélez les dix cartes du dessus de votre bibliothèque. 
+    Pour chaque type de carte, vous pouvez mettre dans votre main une carte de ce type parmi les cartes révélées. 
+    Mettez le reste au-dessous de votre bibliothèque dans un ordre aléatoire.
+
+
+
+Nom : 
+Couleur : 
+Rareté : 
+Nombre : 
+Articles disponibles : +
+descriptif : 
+
+
+
+Nom : 
+Couleur : 
+Rareté : 
+Nombre : 
+Articles disponibles : +
+descriptif : 
+
+
+
+Nom : 
+Couleur : 
+Rareté : 
+Nombre : 
+Articles disponibles : +
+descriptif : 
+
+
+
+Nom : 
+Couleur : 
+Rareté : 
+Nombre : 
+Articles disponibles : +
+descriptif : 
+
+
+
+Nom : 
+Couleur : 
+Rareté : 
+Nombre : 
+Articles disponibles : +
+descriptif : 
