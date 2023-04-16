@@ -4,11 +4,58 @@
     background-position: center;
 }
 
+.single-card-info a:link {
+    color: white;
+}
 
+.single-card-info a:visited {
+    color: white;
+}
 
+.single-card-info a:hover{
+    color: rgba(0, 206, 209);
+}
 
+.single-card-info a:active {
+    color: black;
+}
 
+.bg-greenblue {
+    background-color:  rgba(0, 206, 209, 0.7);
+}
 
+.w-200 {
+    width: 200px;
+}
 
+.blackopacity8 {
+    background-color: rgba(0,0,0,.8);
+    color: white;
+}
 
+.my-10 {
+    margin-top: 110px;
+}
+
+.rareteRare {
+    width: 10px;
+    height: 10px;
+    background-color: blue;
+    border-radius: 50px;
+    margin-left: 5px;
+}
+
+.search-advanced {
+    background-color: rgba(0,0,0,.9); 
+    color: white;
+    width: 200px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+thead {
+    background-color: rgba(0,0,0,.9); 
+    color: white;
+    height: 50px;
+}
 
