@@ -1,92 +1,458 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
     <link href="stylesinglecardpage.css" rel="stylesheet">
     <script src="https://kit.fontawesome.com/c01026dc22.js" crossorigin="anonymous"></script>
     <title>CardsFinder - Page d'une carte</title>
 </head>
+
 <body>
-    <header>
+    <div class="main-content background-image">
+        <header class="sticky-top">
+            <nav class="navbar navbar-expand-lg" style="background-color:rgba(0, 206, 209, 0.59);">
+                <div class="container-fluid">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link active text-dark" aria-current="page" href="index.html"><img
+                                        src="images/maison.png" alt="accueil" width="16px"> Accueil</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" href="profil.html"><img src="images/profil.png"
+                                        alt="profil" width="16px"> Profil</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" href="message.html"><img src="images/message.png"
+                                        alt="message" width="16px"> Messagerie</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" href="market.html"><img src="images/panier.png"
+                                        alt="message" width="16px"> Panier</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" id="search" type="search" placeholder="Que recherchez vous ?"
+                            aria-label="Search" style="background-color: rgba(0, 139, 139, 0.59)">
+                        <button class="btn btn-outline-success text-dark" type="submit">Rechercher</button>
+                    </form>
+                    <a id="logo" href="index.html"><img src="images/logo_cardfinder.jpg" alt="logo" width="200"></a>
+                </div>
+            </nav>
+        </header>
 
-    </header>
-    <div class="main-content">
-        <section>
-            <div class="card-presentation">
-                <img src="images/cartemagic01.jpg" alt="Carte magic"> 
-            </div> 
-        </section>
-        <section>
-            <div class="icon-advanced-search">
-                <i class="fa-regular fa-comment"></i>
-                <i class="fa-solid fa-location-pin fa-lg"></i>
-                <i class="fa-solid fa-user-group fa-lg"></i>
-                <i class="fa-solid fa-language fa-lg"></i>
-                <i class="fa-solid fa-star fa-lg"></i>
-                <i class="fa-solid fa-share-nodes fa-lg"></i>
-            </div> 
-            <table>
-                <thead>
-                    <tr>
-                        <th>Vendeur</th>
-                        <th>Informations sur le produit</th>
-                        <th>Offre</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td><span class="seller-information"><img class="localisation" src="images/etats-unis.png" alt="état-unis"><span class="sell-count">5</span><a href="page de profil de l'user" class="user">User</a></span><span class="cote"><i class="fa-solid fa-star fa-lg"></i><i class="fa-solid fa-star fa-lg"></i><i class="fa-solid fa-star fa-lg"></i><i class="fa-regular fa-star fa-lg"></i><i class="fa-regular fa-star fa-lg"></i></span></span></td>
-                        <td>with two columns</td>
-                        <td>1,50</td>
-                    </tr>
-            
-                        <td><span class="seller-information"><img class="localisation" src="images/etats-unis.png" alt="état-unis"><span class="sell-count">5</span><a href="page de profil de l'user" class="user">User</a></span></td>
-                        <td>with two columns</td>
-                        <td>with two columns</td>
-            
-                    <tr>
-                        <td><span class="seller-information"><img class="localisation" src="images/etats-unis.png" alt="état-unis"><span class="sell-count">5</span><a href="page de profil de l'user" class="user">User</a></span></td>
-                        <td>with two columns</td>
-                        <td>with two columns</td>
-                    </tr>
-                    <tr>
-                        <td><span class="seller-information"><img class="localisation" src="images/etats-unis.png" alt="état-unis"><span class="sell-count">5</span><a href="page de profil de l'user" class="user">User</a></span></td>
-                        <td>with two columns</td>
-                        <td>with two columns</td>
-                    </tr>
-                    <tr>
-                        <td><span class="seller-information"><img class="localisation" src="images/etats-unis.png" alt="état-unis"><span class="sell-count">5</span><a href="page de profil de l'user" class="user">User</a></span></td>
-                        <td>with two columns</td>
-                        <td>with two columns</td>
-                    </tr>
-                    <tr>
-                        <td><span class="seller-information"><img class="localisation" src="images/etats-unis.png" alt="état-unis"><span class="sell-count">5</span><a href="page de profil de l'user" class="user">User</a></span></td>
-                        <td>with two columns</td>
-                        <td>with two columns</td>
-                    </tr>
-                    <tr>
-                        <td><span class="seller-information"><img class="localisation" src="images/etats-unis.png" alt="état-unis"><span class="sell-count">5</span><a href="page de profil de l'user" class="user">User</a></span></td>
-                        <td>with two columns</td>
-                        <td>with two columns</td>
-                    </tr>
-                    <tr>
-                        <td><span class="seller-information"><img class="localisation" src="images/etats-unis.png" alt="état-unis"><span class="sell-count">5</span><a href="page de profil de l'user" class="user">User</a></span></td>
-                        <td>with two columns</td>
-                        <td>with two columns</td>
-                    </tr>
-                    <tr>
-                        <td><span class="seller-information"><img class="localisation" src="images/etats-unis.png" alt="état-unis"><span class="sell-count">5</span><a href="page de profil de l'user" class="user">User</a></span></td>
-                        <td>with two columns</td>
-                        <td>with two columns</td>
-                    </tr>
-                </tbody>
-            </table>
-        </section>
+        <div class="container single-card-info">
+            <div class="presentation-card my-10">
+                <div class="col-md-8 mx-auto">
+                    <div class="card blackopacity8">
+                        <div class="card-header" style="background-color: rgba(0,0,0,.7);">
+                            <div class="d-flex justify-content-end">
+                                <ul class="nav nav-tabs card-header-tabs" id="myTab" role="tablist">
+                                    <li class="nav-item">
+                                        <a class="nav-link active" id="infos-tab" data-toggle="tab" href="#infos"
+                                            role="tab" aria-controls="infos" aria-selected="true">Infos</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" id="commentaires-tab" data-toggle="tab" href="#commentaires"
+                                            role="tab" aria-controls="commentaires"
+                                            aria-selected="false">Commentaires</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <div class="tab-content" id="myTabContent">
+                                <div class="tab-pane fade show active" id="infos" role="tabpanel"
+                                    aria-labelledby="infos-tab">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-md-4">
+                                                <div id="carouselExample" class="w-200 carousel slide">
+                                                    <div class="carousel-inner">
+                                                        <div class="carousel-item active">
+                                                            <img src="images/cartemagic01.jpg" class="d-block w-100"
+                                                                alt="Jace Beleren Fr">
+                                                        </div>
+                                                        <div class="carousel-item">
+                                                            <img src="images/jace_beleren.png" class="d-block w-100"
+                                                                alt="Jace Beleren En">
+                                                        </div>
+                                                    </div>
+                                                    <button class="carousel-control-prev" type="button"
+                                                        data-bs-target="#carouselExample" data-bs-slide="prev">
+                                                        <span class="carousel-control-prev-icon"
+                                                            aria-hidden="true"></span>
+                                                        <span class="visually-hidden">Previous</span>
+                                                    </button>
+                                                    <button class="carousel-control-next" type="button"
+                                                        data-bs-target="#carouselExample" data-bs-slide="next">
+                                                        <span class="carousel-control-next-icon"
+                                                            aria-hidden="true"></span>
+                                                        <span class="visually-hidden">Next</span>
+                                                    </button>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <h2>Jace Beleren</h2>
+                                                <p>
+                                                    Planeswalker : Jace <br><br> +2 : Chaque joueur pioche une carte.
+                                                    <br> -1 : Le joueur ciblé pioche une carte. <br> -10 : Le joueur
+                                                    ciblé met les vingt cartes du dessus de sa bibliothèque dans son
+                                                    cimetière <br> Loyauté : 3
+                                                </p>
+                                                <div class="d-flex align-items-center">
+                                                    Rareté : <div class="rareteRare"></div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-2 mx-auto">
+                                                <p>En vente : 1202<br>Prix moyen actuel : 1,67£<br>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="commentaires" role="tabpanel"
+                                    aria-labelledby="commentaires-tab">
+                                    <p>Commentaires sur la carte ici...</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="d-flex search-advanced justify-content-between p-2">
+                <i class="bi bi-geo-alt-fill mx-1"></i>
+                <i class="bi bi-person-fill"></i>
+                <div class="form-group w-20">
+                    <select class="form-select form-select-sm w-100" aria-label=".form-select-sm example">
+                        <option selected>FR</option>
+                        <option value="1">FR</option>
+                        <option value="2">EN</option>
+                        <option value="3">Three</option>
+                    </select>
+                </div>
+                <div class="form-group w-20">
+                    <select class="form-select form-select-sm w-100" aria-label=".form-select-sm example">
+                        <option selected>GD</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                      </select>
+                </div>
+            </div>
+
+            <div class="table-sell-cards">
+                <table class="table table-responsive table-sm mx-auto w-100">
+                    <thead class="text-center align-middle">
+                        <tr>
+                            <th>Vendeur</th>
+                            <th>Informations sur le produit</th>
+                            <th>Offre</th>
+                        </tr>
+                    </thead>
+                    <tbody class="table-group-divider blackopacity8">
+                        <tr>
+                            <td class="d-flex justify-content-between">
+                                <span class="seller-information">
+                                    <img class="localisation px-1" src="images/etats-unis.png" alt="état-unis">
+                                    <span class="badge text-bg-light">5</span>
+                                    <a href="page de profil de l'user" class="user px-1">
+                                        Jean-Michel
+                                    </a>
+                                </span>
+                                <span>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star"></i>
+                                    <i class="bi bi-star"></i>
+                                </span>
+                            </td>
+                            <td>
+                                <span class="badge text-bg-warning">GD</span>
+                                <span class="badge text-bg-light mx-1">FR</span>
+                            </td>
+                            <td class="d-flex justify-content-between">
+                                <span>0,50£</span>
+                                <a href="acheté"><span class="badge"><i class="bi bi-cart4"></i></span></a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="d-flex justify-content-between">
+                                <span class="seller-information">
+                                    <img class="localisation px-1" src="images/etats-unis.png" alt="état-unis">
+                                    <span class="badge text-bg-light">5</span>
+                                    <a href="page de profil de l'user" class="user px-1">
+                                        Jean-Michel
+                                    </a>
+                                </span>
+                                <span>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star"></i>
+                                    <i class="bi bi-star"></i>
+                                </span>
+                            </td>
+                            <td>
+                                <span class="badge text-bg-warning">GD</span>
+                                <span class="badge text-bg-light mx-1">FR</span>
+                            </td>
+                            <td class="d-flex justify-content-between">
+                                <span>0,50£</span>
+                                <a href="acheté"><span class="badge"><i class="bi bi-cart4"></i></span></a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="d-flex justify-content-between">
+                                <span class="seller-information">
+                                    <img class="localisation px-1" src="images/etats-unis.png" alt="état-unis">
+                                    <span class="badge text-bg-light">5</span>
+                                    <a href="page de profil de l'user" class="user px-1">
+                                        Jean-Michel
+                                    </a>
+                                </span>
+                                <span>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star"></i>
+                                    <i class="bi bi-star"></i>
+                                </span>
+                            </td>
+                            <td>
+                                <span class="badge text-bg-warning">GD</span>
+                                <span class="badge text-bg-light mx-1">FR</span>
+                            </td>
+                            <td class="d-flex justify-content-between">
+                                <span>0,50£</span>
+                                <a href="acheté"><span class="badge"><i class="bi bi-cart4"></i></span></a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="d-flex justify-content-between">
+                                <span class="seller-information">
+                                    <img class="localisation px-1" src="images/etats-unis.png" alt="état-unis">
+                                    <span class="badge text-bg-light">5</span>
+                                    <a href="page de profil de l'user" class="user px-1">
+                                        Jean-Michel
+                                    </a>
+                                </span>
+                                <span>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star"></i>
+                                    <i class="bi bi-star"></i>
+                                </span>
+                            </td>
+                            <td>
+                                <span class="badge text-bg-warning">GD</span>
+                                <span class="badge text-bg-light mx-1">FR</span>
+                            </td>
+                            <td class="d-flex justify-content-between">
+                                <span>0,50£</span>
+                                <a href="acheté"><span class="badge"><i class="bi bi-cart4"></i></span></a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="d-flex justify-content-between">
+                                <span class="seller-information">
+                                    <img class="localisation px-1" src="images/etats-unis.png" alt="état-unis">
+                                    <span class="badge text-bg-light">5</span>
+                                    <a href="page de profil de l'user" class="user px-1">
+                                        Jean-Michel
+                                    </a>
+                                </span>
+                                <span>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star"></i>
+                                    <i class="bi bi-star"></i>
+                                </span>
+                            </td>
+                            <td>
+                                <span class="badge text-bg-warning">GD</span>
+                                <span class="badge text-bg-light mx-1">FR</span>
+                            </td>
+                            <td class="d-flex justify-content-between">
+                                <span>0,50£</span>
+                                <a href="acheté"><span class="badge"><i class="bi bi-cart4"></i></span></a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="d-flex justify-content-between">
+                                <span class="seller-information">
+                                    <img class="localisation px-1" src="images/etats-unis.png" alt="état-unis">
+                                    <span class="badge text-bg-light">5</span>
+                                    <a href="page de profil de l'user" class="user px-1">
+                                        Jean-Michel
+                                    </a>
+                                </span>
+                                <span>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star"></i>
+                                    <i class="bi bi-star"></i>
+                                </span>
+                            </td>
+                            <td>
+                                <span class="badge text-bg-warning">GD</span>
+                                <span class="badge text-bg-light mx-1">FR</span>
+                            </td>
+                            <td class="d-flex justify-content-between">
+                                <span>0,50£</span>
+                                <a href="acheté"><span class="badge"><i class="bi bi-cart4"></i></span></a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="d-flex justify-content-between">
+                                <span class="seller-information">
+                                    <img class="localisation px-1" src="images/etats-unis.png" alt="état-unis">
+                                    <span class="badge text-bg-light">5</span>
+                                    <a href="page de profil de l'user" class="user px-1">
+                                        Jean-Michel
+                                    </a>
+                                </span>
+                                <span>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star"></i>
+                                    <i class="bi bi-star"></i>
+                                </span>
+                            </td>
+                            <td>
+                                <span class="badge text-bg-warning">GD</span>
+                                <span class="badge text-bg-light mx-1">FR</span>
+                            </td>
+                            <td class="d-flex justify-content-between">
+                                <span>0,50£</span>
+                                <a href="acheté"><span class="badge"><i class="bi bi-cart4"></i></span></a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="d-flex justify-content-between">
+                                <span class="seller-information">
+                                    <img class="localisation px-1" src="images/etats-unis.png" alt="état-unis">
+                                    <span class="badge text-bg-light">5</span>
+                                    <a href="page de profil de l'user" class="user px-1">
+                                        Jean-Michel
+                                    </a>
+                                </span>
+                                <span>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star"></i>
+                                    <i class="bi bi-star"></i>
+                                </span>
+                            </td>
+                            <td>
+                                <span class="badge text-bg-warning">GD</span>
+                                <span class="badge text-bg-light mx-1">FR</span>
+                            </td>
+                            <td class="d-flex justify-content-between">
+                                <span>0,50£</span>
+                                <a href="acheté"><span class="badge"><i class="bi bi-cart4"></i></span></a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="d-flex justify-content-between">
+                                <span class="seller-information">
+                                    <img class="localisation px-1" src="images/etats-unis.png" alt="état-unis">
+                                    <span class="badge text-bg-light">5</span>
+                                    <a href="page de profil de l'user" class="user px-1">
+                                        Jean-Michel
+                                    </a>
+                                </span>
+                                <span>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star"></i>
+                                    <i class="bi bi-star"></i>
+                                </span>
+                            </td>
+                            <td>
+                                <span class="badge text-bg-warning">GD</span>
+                                <span class="badge text-bg-light mx-1">FR</span>
+                            </td>
+                            <td class="d-flex justify-content-between">
+                                <span>0,50£</span>
+                                <a href="acheté"><span class="badge"><i class="bi bi-cart4"></i></span></a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="d-flex justify-content-between">
+                                <span class="seller-information">
+                                    <img class="localisation px-1" src="images/etats-unis.png" alt="état-unis">
+                                    <span class="badge text-bg-light">5</span>
+                                    <a href="page de profil de l'user" class="user px-1">
+                                        Jean-Michel
+                                    </a>
+                                </span>
+                                <span>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star"></i>
+                                    <i class="bi bi-star"></i>
+                                </span>
+                            </td>
+                            <td>
+                                <span class="badge text-bg-warning">GD</span>
+                                <span class="badge text-bg-light mx-1">FR</span>
+                            </td>
+                            <td class="d-flex justify-content-between">
+                                <span>0,50£</span>
+                                <a href="acheté"><span class="badge"><i class="bi bi-cart4"></i></span></a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <footer>
+            <div class="container-fluid bg-greenblue my-10">
+                <div class="d-flex justify-content-center">
+                    <h3 id="informations"><U>Informations</U></h3>
+                </div>
+                <div class="d-flex justify-content-around">
+                    <p class="copyright">Copyright &copy;</p>
+                    <a class="CGV-U" href="CGV-U.html">Conditions générales de vente et d'utilisation</a>
+                    <a class="legal" href="who_are_we.html">Mentions légales</a>
+                    <a class="Confidentialité" href="confidentialité.html">Confidentialité</a>
+                    <a class="contact_us" href="contact_us.html">Nous contacter</a>
+                </div>
+                <div class="d-flex justify-content-center">
+                    <i class="bi bi-instagram"></i> Instagram
+                    <i class="bi bi-facebook"></i> Facebook
+                    <i class="bi bi-linkedin"></i> Linkedin
+                    <i class="bi bi-tiktok"></i> TikTok
+                </div>
+            </div>
+        </footer>
     </div>
-    <footer>
 
-    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
