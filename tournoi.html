@@ -28,92 +28,136 @@
 </head>
 
 <body>
-  <header class="sticky-top">
-        <nav class="navbar navbar-expand-lg" style="background-color:rgba(0, 206, 209, 0.59);">
-        <div class="container-fluid">
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                <a class="nav-link active text-dark" aria-current="page" href="index.html"><img src="images/maison.png" alt="accueil" width="16px">     Accueil</a>
-                </li>
-                <li class="nav-item">
-                <a class="nav-link text-dark" href="profil.html"><img src="images/profil.png" alt="profil" width="16px">     Profil</a>
-                </li>
-                <li class="nav-item">
-                <a class="nav-link text-dark" href="message.html"><img src="images/message.png" alt="message" width="16px">     Messagerie</a>
-                </li>
-                <li class="nav-item">
-                <a class="nav-link text-dark" href="market.html"><img src="images/panier.png" alt="message" width="16px">     Panier</a>
-                </li>
-                <a class="nav-link text-dark" href="tournoi.html"><img src="images/crown-solid.svg" alt="message" width="18px">     Tournoi</a>
-                </li>
-            </ul>
-            </div>             
+    <header class="sticky-top">
+        <nav
+          class="navbar navbar-expand-lg"
+          style="background-color: rgba(0, 206, 209, 0.59)"
+        >
+          <div class="container-fluid">
+            <a id="logo" href="accueil.html"
+              ><img src="images/logo_cardfinder.jpg" alt="logo" width="200"
+            /></a>
             <form class="d-flex" role="search">
-            <input class="form-control me-2" id="search" type="search" placeholder="Que recherchez vous ?" aria-label="Search" style="background-color: rgba(0, 139, 139, 0.59)">
-            <button class="btn btn-outline-success text-dark" type="submit">Rechercher</button>
+              <input
+                class="form-control me-2"
+                id="search"
+                type="search"
+                placeholder="Que recherchez vous ?"
+                aria-label="Search"
+                style="background-color: rgba(0, 139, 139, 0.59)"
+              />
+              <button class="btn btn-outline-success text-dark" type="submit">
+                Rechercher
+              </button>
             </form>
-            <div class="btn-group dropstart">
-                <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" data-bs-auto-close="outside">
-                    Inscription
-                </button>
-                <form class="dropdown-menu px-5 bg-primary-subtle" method="get"action="./inscription.html">
-                    <div class="form-floating mb-2" style="width: 200px">
-                        <input type="text" class="form-control" id="login">
-                        <label for="login">Login :</label>
-                    </div>
-                    <div class="form-floating mb-2" style="width: 200px">
-                        <input type="email" class="form-control" id="mail" >
-                        <label for="login">e-mail :</label>
-                    </div>
-                    <div class="form-floating mb-2" style="width: 200px">
-                        <input type="password" class="form-control" id="mdp">
-                        <label for="mdp">Mot de passe :</label>
-                    </div>
-                    <div class="mb-3">
-                        <div class="form-check">
-                            <input type="radio" value="ChuckNorris" name="genre">
-                            <label for="ChuckNorris">Homme</label> <br>
-                            <input type="radio" value="ChuckNorris" name="genre">
-                            <label for="ChuckNorris">femme</label>
-                        </div>
-                    </div>
-                    <button type="submit" class="btn btn-primary">Inscription</button>
-                    <input type="reset" class="btn btn-secondary" value="reset">
-                </form>
-                <!-- bouton connexion -->
-                <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" data-bs-auto-close="outside">
-                    Connexion
-                </button>
-                <form class="dropdown-menu px-5 bg-primary-subtle" method="get"action="./accueilconnecte.html">
-                    <div class="form-floating mb-3" style="width: 200px">
-                        <input type="text" class="form-control" id="floatingLogin" placeholder="Chuck Norris">
-                        <label for="floatingLogin">Login</label>
-                      </div>
-                      <div class="form-floating">
-                        <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
-                        <label for="floatingPassword">Password</label>
-                      </div>
-                    pas encore membre?<a href="#inscription">inscription</a>
-                    <div class="mb-3">
-                        <div class="form-check">
-                            <input type="checkbox" class="form-check-input" id="dropdownCheck2">
-                            <label class="form-check-label" for="dropdownCheck2">
-                                Se souvenir de moi
-                            </label>
-                        </div>
-                    </div>
-                    <button type="submit" class="btn btn-primary">Connexion</button>
-                </form>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a
+                    class="nav-link active text-dark"
+                    aria-current="page"
+                    href="accueil.html"
+                    ><img src="images/maison.png" alt="accueil" width="16px" />
+                    Accueil</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-dark" href="profil.html"
+                    ><img src="images/profil.png" alt="profil" width="16px" />
+                    Profil</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-dark" href="message.html"
+                    ><img src="images/message.png" alt="message" width="16px" />
+                    Messagerie</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-dark" href="market.html"
+                    ><img src="images/panier.png" alt="message" width="16px" />
+                    Panier</a>
+                </li>
+              </ul>
             </div>
-            <a id="logo" href="index.html"><img src="images/logo_cardfinder.jpg" alt="logo" width="200"></a>                
-        </div>
-        </nav>
-    </header>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNav"
+              aria-controls="navbarNav"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="btn-group dropstart">
+              <button type="button" class="btn btn-info" data-bs-toggle="dropdown" aria-expanded="false" data-bs-auto-close="outside">
+                  Inscription
+              </button>
+              <form class="dropdown-menu px-5 border-dark" method="get"action="./inscription.html" style="background-color: rgba(0, 206, 209, 0.59)">
+                  <div class="form-floating mb-2" style="width: 200px">
+                      <input type="text" class="form-control" id="login">
+                      <label for="login">Login :</label>
+                  </div>
+                  <div class="form-floating mb-2" style="width: 200px">
+                      <input type="email" class="form-control" id="mail" >
+                      <label for="login">e-mail :</label>
+                  </div>
+                  <div class="form-floating mb-2" style="width: 200px">
+                      <input type="password" class="form-control" id="mdp">
+                      <label for="mdp">Mot de passe :</label>
+                  </div>
+                  <div class="mb-3">
+                      <div class="form-check">
+                          <input type="radio" value="ChuckNorris" name="genre">
+                          <label for="ChuckNorris">homme</label> <br>
+                          <input type="radio" value="ChuckNorris" name="genre">
+                          <label for="ChuckNorris">femme</label>
+                      </div>
+                  </div>
+                  <button type="submit" class="btn btn-info" data-bs-toggle="dropdown" aria-expanded="false" data-bs-auto-close="outside">Inscription</button>
+                  <button type="reset" class="btn btn-info" data-bs-toggle="dropdown" aria-expanded="false" data-bs-auto-close="outside" value="reset">reset</button>
+              </form>
+              <!-- bouton connexion -->
+              <button type="button" class="btn btn-info"  data-bs-toggle="dropdown" aria-expanded="false" data-bs-auto-close="outside">
+                  Connexion
+              </button>
+              <form class="dropdown-menu px-5 border-dark" style="background-color: rgba(0, 206, 209, 0.59)" method="get"action="./accueilconnecte.html">
+                  <div class="form-floating mb-3" style="width: 200px">
+                      <input type="text" class="form-control" id="floatingLogin" placeholder="Chuck Norris">
+                      <label for="floatingLogin">Login</label>
+                    </div>
+                    <div class="form-floating">
+                      <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                      <label for="floatingPassword">Password</label>
+                    </div>
+                  pas encore membre?<a href="#inscription">inscription</a>
+                  <div class="mb-3">
+                      <div class="form-check">
+                          <input type="checkbox" class="form-check-input" id="dropdownCheck2">
+                          <label class="form-check-label" for="dropdownCheck2">
+                              Se souvenir de moi
+                          </label>
+                      </div>
+                  </div>
+                  <button type="submit" class="btn btn-info" data-bs-toggle="dropdown" aria-expanded="false" data-bs-auto-close="outside">Connexion</button>
+                  <button type="reset" class="btn btn-info" data-bs-toggle="dropdown" aria-expanded="false" data-bs-auto-close="outside" value="reset">reset</button>
+              </form>
+          </div> 
+          </div>                  
+      </div>
+      </nav>
+      </header>
         <nav class="fil_d_ariane"><a href="index.html">Accueil</a>/</nav> 
+        <div class="rules" style="display: flex; flex-direction: column;">
+            <h2 style="display: flex; justify-content: center;">Les règles de Magic: The Gathering</h2>
+            <ul style="display: flex; justify-content: center; flex-direction: column;">
+              <li>Chaque joueur commence avec un deck de 60 cartes</li>
+              <li>Les joueurs jouent tour à tour en posant des cartes et en utilisant des capacités</li>
+              <li>Le but est de réduire les points de vie de l'adversaire à zéro en utilisant des sorts et des créatures</li>
+              <li>Il n'y a pas d'égalité possible, le dernier joueur en vie remporte la partie</li>
+            </ul>
+          </div>
         <div class="input-group d-flex align-items" id="combattant">
                 <span class="input-group-text">Liste des magiciens :</span>
                 <input type="text" class="form-control" placeholder="nerd 1" id="nerd1">
@@ -124,145 +168,143 @@
                 <input type="text" class="form-control" placeholder="nerd 6" id="nerd6">
                 <input type="text" class="form-control" placeholder="nerd 7" id="nerd7">
                 <input type="text" class="form-control" placeholder="nerd 8" id="nerd8">
-                <input type="submit" value="submit">
           </div>
-
-        <div class="container" id="tournoi">
-        <div class="row">
-            <div class="col"><input class="btn btn-primary" id="bouton1" value="" placeholder="nerd 1" type="text" onclick="designerGagant('bouton1','bouton9'),designerPerdant('bouton2')"></input></div>
-            <div class="col"></div>
-            <div class="col"></div>
-            <div class="col"></div>
-            <div class="col"></div>
-            <div class="col"></div>
-            <div class="col"></div>
-        </div>
-        <div class="row">
-            <div class="col"></div>
-            <div class="col"></div>
-            <div class="col"><input class="btn btn-primary" id="bouton9" value="" placeholder="quart de finale 1"type="text" onclick="designerGagant('bouton9','bouton13'),designerPerdant('bouton10')"></input></div>
-            <div class="col"></div>
-            <div class="col"></div>
-            <div class="col"></div>
-            <div class="col"></div>
-        </div>
-        <div class="row">
-            <div class="col"><input class="btn btn-primary" id="bouton2" value="" placeholder="nerd 2" type="text" onclick="designerGagant('bouton2','bouton9'),designerPerdant('bouton1')"></input></div>
-            <div class="col"></div>
-            <div class="col"></div>
-            <div class="col"></div>
-            <div class="col"></div>
-            <div class="col"></div>
-            <div class="col"></div>
-        </div>
-        <div class="row">
-            <div class="col"></div>
-            <div class="col"></div>
-            <div class="col"></div>
-            <div class="col"></div>
-            <div class="col"><input class="btn btn-primary" id="bouton13" value="" placeholder="demi finale 1" type="text" onclick="designerGagant('bouton13','bouton15'),designerPerdant('bouton14')"></input></div>
-            <div class="col"></div>
-            <div class="col"></div>
-        </div>
-        <div class="row">
-            <div class="col"><input class="btn btn-primary" id="bouton3" value="" placeholder="nerd 3" type="text" onclick="designerGagant('bouton3','bouton10'),designerPerdant('bouton4')"></input></div>
-            <div class="col"></div>
-            <div class="col"></div>
-            <div class="col"></div>
-            <div class="col"></div>
-            <div class="col"></div>
-            <div class="col"></div>
-        </div>
-        <div class="row">
-            <div class="col"></div>
-            <div class="col"></div>
-            <div class="col"><input class="btn btn-primary" id="bouton10" value="" placeholder="quart de finale 2" type="text" onclick="designerGagant('bouton10','bouton13'),designerPerdant('bouton9')"></input></div>
-            <div class="col"></div>
-            <div class="col"></div>
-            <div class="col"></div>
-            <div class="col"></div>
-        </div>
-        <div class="row">
-            <div class="col"><input class="btn btn-primary" id="bouton4" value="" placeholder="nerd 4" type="text" onclick="designerGagant('bouton4','bouton10'),designerPerdant('bouton3')"></input></div>
-            <div class="col"></div>
-            <div class="col"></div>
-            <div class="col"></div>
-            <div class="col"></div>
-            <div class="col"></div>
-            <div class="col"></div>
-        </div>
-        <div class="row">
-            <div class="col"></div>
-            <div class="col"></div>
-            <div class="col"></div>
-            <div class="col"></div>
-            <div class="col"></div>
-            <div class="col"></div>
-            <div class="col"><input class="btn btn-primary" id="bouton15" value="" placeholder="champion" type="text"></input></div>
-        </div>
-        <div class="row">
-            <div class="col"><input class="btn btn-primary" id="bouton5" value="" placeholder="nerd 5" type="text" onclick="designerGagant('bouton5','bouton11'),designerPerdant('bouton6')"></input></div>
-            <div class="col"></div>
-            <div class="col"></div>
-            <div class="col"></div>
-            <div class="col"></div>
-            <div class="col"></div>
-            <div class="col"></div>
-        </div>
-        <div class="row">
-            <div class="col"></div>
-            <div class="col"></div>
-            <div class="col"><input class="btn btn-primary" id="bouton11" value="" placeholder="quart de final 3" type="text" onclick="designerGagant('bouton11','bouton14'),designerPerdant('bouton12')"></input></div>
-            <div class="col"></div>
-            <div class="col"></div>
-            <div class="col"></div>
-            <div class="col"></div>
-        </div>
-        <div class="row">
-            <div class="col"><input class="btn btn-primary" id="bouton6" value="" placeholder="nerd 6" type="text" onclick="designerGagant('bouton6','bouton11'),designerPerdant('bouton5')"></input></div>
-            <div class="col"></div>
-            <div class="col"></div>
-            <div class="col"></div>
-            <div class="col"></div>
-            <div class="col"></div>
-            <div class="col"></div>
-        </div>
-        <div class="row">
-            <div class="col"></div>
-            <div class="col"></div>
-            <div class="col"></div>
-            <div class="col"></div>
-            <div class="col"><input class="btn btn-primary" id="bouton14" value="" placeholder="demi finale 2" type="text" onclick="designerGagant('bouton14','bouton15'),designerPerdant('bouton13')"></input></div>
-            <div class="col"></div>
-            <div class="col"></div>
-        </div>
-        <div class="row">
-            <div class="col"><input class="btn btn-primary" id="bouton7" value="" placeholder="nerd 7" type="text" onclick="designerGagant('bouton7','bouton12'),designerPerdant('bouton8')"></input></div>
-            <div class="col"></div>
-            <div class="col"></div>
-            <div class="col"></div>
-            <div class="col"></div>
-            <div class="col"></div>
-            <div class="col"></div>
-        </div>
-        <div class="row">
-            <div class="col"></div>
-            <div class="col"></div>
-            <div class="col"><input class="btn btn-primary" id="bouton12" value="" placeholder="quart de finale 4" type="text" onclick="designerGagant('bouton12','bouton14'),designerPerdant('bouton11')"></input></div>
-            <div class="col"></div>
-            <div class="col"></div>
-            <div class="col"></div>
-            <div class="col"></div>
-        </div>
-        <div class="row">
-            <div class="col"><input class="btn btn-primary" id="bouton8" value="" placeholder="nerd 8" type="text" onclick="designerGagant('bouton8','bouton12'),designerPerdant('bouton7')"></input></div>
-            <div class="col"></div>
-            <div class="col"></div>
-            <div class="col"></div>
-            <div class="col"></div>
-            <div class="col"></div>
-            <div class="col"></div>
-        </div>
+        <div class="container p-0" id="tournoi">
+            <div class="row">
+                <div class="col"><input class="btn btn-primary" id="bouton1" value="" placeholder="nerd 1" type="text" onclick="designerGagant('bouton1','bouton9'),designerPerdant('bouton2')"></input></div>
+                <div class="col"></div>
+                <div class="col"></div>
+                <div class="col"></div>
+                <div class="col"></div>
+                <div class="col"></div>
+                <div class="col"></div>
+            </div>
+            <div class="row">
+                <div class="col"></div>
+                <div class="col"></div>
+                <div class="col"><input class="btn btn-primary" id="bouton9" value="" placeholder="quart de finale 1"type="text" onclick="designerGagant('bouton9','bouton13'),designerPerdant('bouton10')"></input></div>
+                <div class="col"></div>
+                <div class="col"></div>
+                <div class="col"></div>
+                <div class="col"></div>
+            </div>
+            <div class="row">
+                <div class="col"><input class="btn btn-primary" id="bouton2" value="" placeholder="nerd 2" type="text" onclick="designerGagant('bouton2','bouton9'),designerPerdant('bouton1')"></input></div>
+                <div class="col"></div>
+                <div class="col"></div>
+                <div class="col"></div>
+                <div class="col"></div>
+                <div class="col"></div>
+                <div class="col"></div>
+            </div>
+            <div class="row">
+                <div class="col"></div>
+                <div class="col"></div>
+                <div class="col"></div>
+                <div class="col"></div>
+                <div class="col"><input class="btn btn-primary" id="bouton13" value="" placeholder="demi finale 1" type="text" onclick="designerGagant('bouton13','bouton15'),designerPerdant('bouton14')"></input></div>
+                <div class="col"></div>
+                <div class="col"></div>
+            </div>
+            <div class="row">
+                <div class="col"><input class="btn btn-primary" id="bouton3" value="" placeholder="nerd 3" type="text" onclick="designerGagant('bouton3','bouton10'),designerPerdant('bouton4')"></input></div>
+                <div class="col"></div>
+                <div class="col"></div>
+                <div class="col"></div>
+                <div class="col"></div>
+                <div class="col"></div>
+                <div class="col"></div>
+            </div>
+            <div class="row">
+                <div class="col"></div>
+                <div class="col"></div>
+                <div class="col"><input class="btn btn-primary" id="bouton10" value="" placeholder="quart de finale 2" type="text" onclick="designerGagant('bouton10','bouton13'),designerPerdant('bouton9')"></input></div>
+                <div class="col"></div>
+                <div class="col"></div>
+                <div class="col"></div>
+                <div class="col"></div>
+            </div>
+            <div class="row">
+                <div class="col"><input class="btn btn-primary" id="bouton4" value="" placeholder="nerd 4" type="text" onclick="designerGagant('bouton4','bouton10'),designerPerdant('bouton3')"></input></div>
+                <div class="col"></div>
+                <div class="col"></div>
+                <div class="col"></div>
+                <div class="col"></div>
+                <div class="col"></div>
+                <div class="col"></div>
+            </div>
+            <div class="row">
+                <div class="col"></div>
+                <div class="col"></div>
+                <div class="col"></div>
+                <div class="col"></div>
+                <div class="col"></div>
+                <div class="col"></div>
+                <div class="col"><input class="btn btn-primary" id="bouton15" value="" placeholder="champion" type="text"></input></div>
+            </div>
+            <div class="row">
+                <div class="col"><input class="btn btn-primary" id="bouton5" value="" placeholder="nerd 5" type="text" onclick="designerGagant('bouton5','bouton11'),designerPerdant('bouton6')"></input></div>
+                <div class="col"></div>
+                <div class="col"></div>
+                <div class="col"></div>
+                <div class="col"></div>
+                <div class="col"></div>
+                <div class="col"></div>
+            </div>
+            <div class="row">
+                <div class="col"></div>
+                <div class="col"></div>
+                <div class="col"><input class="btn btn-primary" id="bouton11" value="" placeholder="quart de final 3" type="text" onclick="designerGagant('bouton11','bouton14'),designerPerdant('bouton12')"></input></div>
+                <div class="col"></div>
+                <div class="col"></div>
+                <div class="col"></div>
+                <div class="col"></div>
+            </div>
+            <div class="row">
+                <div class="col"><input class="btn btn-primary" id="bouton6" value="" placeholder="nerd 6" type="text" onclick="designerGagant('bouton6','bouton11'),designerPerdant('bouton5')"></input></div>
+                <div class="col"></div>
+                <div class="col"></div>
+                <div class="col"></div>
+                <div class="col"></div>
+                <div class="col"></div>
+                <div class="col"></div>
+            </div>
+            <div class="row">
+                <div class="col"></div>
+                <div class="col"></div>
+                <div class="col"></div>
+                <div class="col"></div>
+                <div class="col"><input class="btn btn-primary" id="bouton14" value="" placeholder="demi finale 2" type="text" onclick="designerGagant('bouton14','bouton15'),designerPerdant('bouton13')"></input></div>
+                <div class="col"></div>
+                <div class="col"></div>
+            </div>
+            <div class="row">
+                <div class="col"><input class="btn btn-primary" id="bouton7" value="" placeholder="nerd 7" type="text" onclick="designerGagant('bouton7','bouton12'),designerPerdant('bouton8')"></input></div>
+                <div class="col"></div>
+                <div class="col"></div>
+                <div class="col"></div>
+                <div class="col"></div>
+                <div class="col"></div>
+                <div class="col"></div>
+            </div>
+            <div class="row">
+                <div class="col"></div>
+                <div class="col"></div>
+                <div class="col"><input class="btn btn-primary" id="bouton12" value="" placeholder="quart de finale 4" type="text" onclick="designerGagant('bouton12','bouton14'),designerPerdant('bouton11')"></input></div>
+                <div class="col"></div>
+                <div class="col"></div>
+                <div class="col"></div>
+                <div class="col"></div>
+            </div>
+            <div class="row">
+                <div class="col"><input class="btn btn-primary" id="bouton8" value="" placeholder="nerd 8" type="text" onclick="designerGagant('bouton8','bouton12'),designerPerdant('bouton7')"></input></div>
+                <div class="col"></div>
+                <div class="col"></div>
+                <div class="col"></div>
+                <div class="col"></div>
+                <div class="col"></div>
+                <div class="col"></div>
+            </div>
     </div>
 
   <footer class="text-dark" style="background-color:rgba(0, 206, 209, 0.59);">
