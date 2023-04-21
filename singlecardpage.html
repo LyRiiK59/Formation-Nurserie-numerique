@@ -14,7 +14,7 @@
 </head>
 
 <body>
-    
+    <div class="main-content background-image fontstyle">
         <header class="sticky-top">
             <nav class="navbar navbar-expand-lg" style="background-color: rgba(0, 206, 209, 0.59)">
                 <div class="container-fluid">
@@ -179,26 +179,26 @@
 
 
             <div class="toolbar d-flex">
-                <a class="icon" data-bs-toggle="collapse" data-bs-target="#collapse-1" aria-expanded="false" aria-controls="collapse-1">
+                <a class="icons" id="icon-1" data-bs-toggle="collapse" data-bs-target="#collapse-1" aria-expanded="false" aria-controls="collapse-1">
                     <i class="bi bi-geo-alt-fill"></i>
                 </a>
-                <a class="icon" data-bs-toggle="collapse" data-bs-target="#collapse-2" aria-expanded="false" aria-controls="collapse-2">
+                <a class="icons" id="icon-2" data-bs-toggle="collapse" data-bs-target="#collapse-2" aria-expanded="false" aria-controls="collapse-2">
                     <i class="bi bi-person"></i>
                 </a>
-                <a class="icon" data-bs-toggle="collapse" data-bs-target="#collapse-3" aria-expanded="false" aria-controls="collapse-3">
+                <a class="icons" id="icon-3" data-bs-toggle="collapse" data-bs-target="#collapse-3" aria-expanded="false" aria-controls="collapse-3">
                     <i class="bi bi-translate"></i></a>
                 </a>
-                <a class="icon" data-bs-toggle="collapse" data-bs-target="#collapse-4" aria-expanded="false" aria-controls="collapse-4">
+                <a class="icons" id="icon-4" data-bs-toggle="collapse" data-bs-target="#collapse-4" aria-expanded="false" aria-controls="collapse-4">
                     <i class="bi bi-stars"></i>
                 </a>
-                <a class="icon" data-bs-toggle="collapse" data-bs-target="#collapse-5" aria-expanded="false" aria-controls="collapse-5">
+                <a class="icons" id="icon-5" data-bs-toggle="collapse" data-bs-target="#collapse-5" aria-expanded="false" aria-controls="collapse-5">
                     <i class="bi bi-star-fill"></i>
                 </a>
             </div>
 
-            <div class="collapse collapse-advanced-search" id="collapse-1">
+            <div class="collapse collapse-advanced-search aaa" id="collapse-1">
                 <div>
-                    <span class="location-seller" id="advanced-search">Localisation du vendeur:</span>
+                    <span class="location-seller" id="advanced-search">Localisation du vendeur : </span>
                 </div>
                 <div class="form-check my-auto">
                     <input class="form-check-input" type="checkbox" value="France" id="flexCheck1">
@@ -250,47 +250,141 @@
                 </div>
             </div>
             <div class="collapse collapse-advanced-search" id="collapse-2">
+                <div>
+                    <span class="location-seller" id="advanced-search">Type du vendeur : </span>
+                </div>
                 <div class="form-check my-auto">
                     <input class="form-check-input" type="checkbox" value="France" id="flexCheck1">
                     <label class="form-check-label" for="flexCheck1">
-                      Allemagne
+                      Professionnel
                     </label>
                 </div>
                 <div class="form-check">
                     <input class="form-check-input" type="checkbox" value="" id="flexCheck2">
                     <label class="form-check-label" for="flexCheck2">
-                      Autriche
+                      Particulier
+                    </label>
+                </div>
+            </div>
+            <div class="collapse collapse-advanced-search" id="collapse-3">
+                <div>
+                    <span class="location-seller" id="advanced-search">Langue : </span>
+                </div>
+                <div class="form-check my-auto">
+                    <input class="form-check-input" type="checkbox" value="France" id="flexCheck1">
+                    <label class="form-check-label" for="flexCheck1">
+                      Anglais
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheck2">
+                    <label class="form-check-label" for="flexCheck2">
+                      Francais
                     </label>
                 </div>
                 <div class="form-check">
                     <input class="form-check-input" type="checkbox" value="" id="flexCheck3">
                     <label class="form-check-label" for="flexCheck3">
-                      Belgique
+                      Allemand
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheck4">
+                    <label class="form-check-label" for="flexCheck4">
+                      Espagnol
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheck5">
+                    <label class="form-check-label" for="flexCheck5">
+                      Italien
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheck6">
+                    <label class="form-check-label" for="flexCheck6">
+                      Chinois
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheck7">
+                    <label class="form-check-label" for="flexCheck7">
+                        Japonais
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheck8">
+                    <label class="form-check-label" for="flexCheck8">
+                      Portugais
                     </label>
                 </div>
             </div>
-            <div class="collapse collapse-advanced-search" id="collapse-3">
-                Bonjour
-            </div>
             <div class="collapse collapse-advanced-search" id="collapse-4">
-                Bonjour
+                <div>
+                    <span class="location-seller" id="advanced-search">Condition : </span>
+                </div>
+                <div class="form-check my-auto">
+                    <input class="form-check-input" type="checkbox" value="France" id="flexCheck1">
+                    <label class="form-check-label" for="flexCheck1">
+                      Mint
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheck2">
+                    <label class="form-check-label" for="flexCheck2">
+                      Near Mint
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheck3">
+                    <label class="form-check-label" for="flexCheck3">
+                      Excellent
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheck4">
+                    <label class="form-check-label" for="flexCheck4">
+                      Light played
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheck5">
+                    <label class="form-check-label" for="flexCheck5">
+                      Played
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheck6">
+                    <label class="form-check-label" for="flexCheck6">
+                      Poor
+                    </label>
+                </div>
             </div>
             <div class="collapse collapse-advanced-search" id="collapse-5">
-                Bonjour
+                <div>
+                    <span class="location-seller" id="advanced-search">Appréciation du vendeur : </span>
+                </div>
+                <div class="star-rating">
+                    <i class="myStar bi bi-star-fill" id="star-1"></i>
+                    <i class="myStar bi bi-star-fill" id="star-2"></i>
+                    <i class="myStar bi bi-star-fill" id="star-3"></i>
+                    <i class="myStar bi bi-star-fill" id="star-4"></i>
+                    <i class="myStar bi bi-star-fill" id="star-5"></i>
+                </div>
             </div>
 
             <div class="table-sell-cards">
-                <table class="table table-responsive table-sm mx-auto w-100">
+                <table class="table table-responsive table-ms mx-auto w-100">
                     <thead class="text-center align-middle">
                         <tr>
-                            <th>Vendeur</th>
-                            <th>Informations sur le produit</th>
-                            <th>Offre</th>
+                            <th class="col-5">Vendeur</th>
+                            <th class="col-5">Informations sur le produit</th>
+                            <th class="col-2">Offre</th>
                         </tr>
                     </thead>
-                    <tbody class="table-group-divider blackopacity8">
-                        <tr>
-                            <td class="d-flex justify-content-between">
+                    <tbody class="blackopacity8">
+                        <tr> 
+                            <td class="d-flex no-gutters align-middle justify-content-between">
                                 <span class="seller-information">
                                     <img class="localisation px-1" src="images/etats-unis.png" alt="état-unis">
                                     <span class="badge text-bg-light">5</span>
@@ -310,13 +404,13 @@
                                 <span class="badge text-bg-warning">GD</span>
                                 <span class="badge text-bg-light mx-1">FR</span>
                             </td>
-                            <td class="d-flex justify-content-between">
+                            <td class="d-flex no-gutters align-middle justify-content-between">
                                 <span>0,50£</span>
                                 <a href="acheté"><span class="badge"><i class="bi bi-cart4"></i></span></a>
                             </td>
                         </tr>
                         <tr>
-                            <td class="d-flex justify-content-between">
+                            <td class="d-flex no-gutters align-middle justify-content-between">
                                 <span class="seller-information">
                                     <img class="localisation px-1" src="images/etats-unis.png" alt="état-unis">
                                     <span class="badge text-bg-light">5</span>
@@ -336,13 +430,13 @@
                                 <span class="badge text-bg-warning">GD</span>
                                 <span class="badge text-bg-light mx-1">FR</span>
                             </td>
-                            <td class="d-flex justify-content-between">
+                            <td class="d-flex no-gutters align-middle justify-content-between">
                                 <span>0,50£</span>
                                 <a href="acheté"><span class="badge"><i class="bi bi-cart4"></i></span></a>
                             </td>
                         </tr>
                         <tr>
-                            <td class="d-flex justify-content-between">
+                            <td class="d-flex no-gutters align-middle justify-content-between">
                                 <span class="seller-information">
                                     <img class="localisation px-1" src="images/etats-unis.png" alt="état-unis">
                                     <span class="badge text-bg-light">5</span>
@@ -362,13 +456,13 @@
                                 <span class="badge text-bg-warning">GD</span>
                                 <span class="badge text-bg-light mx-1">FR</span>
                             </td>
-                            <td class="d-flex justify-content-between">
+                            <td class="d-flex no-gutters align-middle justify-content-between">
                                 <span>0,50£</span>
                                 <a href="acheté"><span class="badge"><i class="bi bi-cart4"></i></span></a>
                             </td>
                         </tr>
                         <tr>
-                            <td class="d-flex justify-content-between">
+                            <td class="d-flex no-gutters align-middle justify-content-between">
                                 <span class="seller-information">
                                     <img class="localisation px-1" src="images/etats-unis.png" alt="état-unis">
                                     <span class="badge text-bg-light">5</span>
@@ -388,13 +482,13 @@
                                 <span class="badge text-bg-warning">GD</span>
                                 <span class="badge text-bg-light mx-1">FR</span>
                             </td>
-                            <td class="d-flex justify-content-between">
+                            <td class="d-flex no-gutters align-middle justify-content-between">
                                 <span>0,50£</span>
                                 <a href="acheté"><span class="badge"><i class="bi bi-cart4"></i></span></a>
                             </td>
                         </tr>
                         <tr>
-                            <td class="d-flex justify-content-between">
+                            <td class="d-flex no-gutters align-middle justify-content-between">
                                 <span class="seller-information">
                                     <img class="localisation px-1" src="images/etats-unis.png" alt="état-unis">
                                     <span class="badge text-bg-light">5</span>
@@ -414,13 +508,13 @@
                                 <span class="badge text-bg-warning">GD</span>
                                 <span class="badge text-bg-light mx-1">FR</span>
                             </td>
-                            <td class="d-flex justify-content-between">
+                            <td class="d-flex no-gutters align-middle justify-content-between">
                                 <span>0,50£</span>
                                 <a href="acheté"><span class="badge"><i class="bi bi-cart4"></i></span></a>
                             </td>
                         </tr>
                         <tr>
-                            <td class="d-flex justify-content-between">
+                            <td class="d-flex no-gutters align-middle justify-content-between">
                                 <span class="seller-information">
                                     <img class="localisation px-1" src="images/etats-unis.png" alt="état-unis">
                                     <span class="badge text-bg-light">5</span>
@@ -440,13 +534,13 @@
                                 <span class="badge text-bg-warning">GD</span>
                                 <span class="badge text-bg-light mx-1">FR</span>
                             </td>
-                            <td class="d-flex justify-content-between">
+                            <td class="d-flex no-gutters align-middle justify-content-between">
                                 <span>0,50£</span>
                                 <a href="acheté"><span class="badge"><i class="bi bi-cart4"></i></span></a>
                             </td>
                         </tr>
                         <tr>
-                            <td class="d-flex justify-content-between">
+                            <td class="d-flex no-gutters align-middle justify-content-between">
                                 <span class="seller-information">
                                     <img class="localisation px-1" src="images/etats-unis.png" alt="état-unis">
                                     <span class="badge text-bg-light">5</span>
@@ -466,13 +560,13 @@
                                 <span class="badge text-bg-warning">GD</span>
                                 <span class="badge text-bg-light mx-1">FR</span>
                             </td>
-                            <td class="d-flex justify-content-between">
+                            <td class="d-flex no-gutters align-middle justify-content-between">
                                 <span>0,50£</span>
                                 <a href="acheté"><span class="badge"><i class="bi bi-cart4"></i></span></a>
                             </td>
                         </tr>
                         <tr>
-                            <td class="d-flex justify-content-between">
+                            <td class="d-flex no-gutters align-middle justify-content-between">
                                 <span class="seller-information">
                                     <img class="localisation px-1" src="images/etats-unis.png" alt="état-unis">
                                     <span class="badge text-bg-light">5</span>
@@ -492,13 +586,13 @@
                                 <span class="badge text-bg-warning">GD</span>
                                 <span class="badge text-bg-light mx-1">FR</span>
                             </td>
-                            <td class="d-flex justify-content-between">
+                            <td class="d-flex no-gutters align-middle justify-content-between">
                                 <span>0,50£</span>
                                 <a href="acheté"><span class="badge"><i class="bi bi-cart4"></i></span></a>
                             </td>
                         </tr>
                         <tr>
-                            <td class="d-flex justify-content-between">
+                            <td class="d-flex no-gutters align-middle justify-content-between">
                                 <span class="seller-information">
                                     <img class="localisation px-1" src="images/etats-unis.png" alt="état-unis">
                                     <span class="badge text-bg-light">5</span>
@@ -518,13 +612,13 @@
                                 <span class="badge text-bg-warning">GD</span>
                                 <span class="badge text-bg-light mx-1">FR</span>
                             </td>
-                            <td class="d-flex justify-content-between">
+                            <td class="d-flex no-gutters align-middle justify-content-between">
                                 <span>0,50£</span>
                                 <a href="acheté"><span class="badge"><i class="bi bi-cart4"></i></span></a>
                             </td>
                         </tr>
                         <tr>
-                            <td class="d-flex justify-content-between">
+                            <td class="d-flex no-gutters align-middle justify-content-between">
                                 <span class="seller-information">
                                     <img class="localisation px-1" src="images/etats-unis.png" alt="état-unis">
                                     <span class="badge text-bg-light">5</span>
@@ -544,7 +638,7 @@
                                 <span class="badge text-bg-warning">GD</span>
                                 <span class="badge text-bg-light mx-1">FR</span>
                             </td>
-                            <td class="d-flex justify-content-between">
+                            <td class="d-flex no-gutters align-middle justify-content-between">
                                 <span>0,50£</span>
                                 <a href="acheté"><span class="badge"><i class="bi bi-cart4"></i></span></a>
                             </td>
@@ -584,9 +678,7 @@
         </footer>
     </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
-        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
     <script src="singlecardfunction.js"></script>
 </body>
 
