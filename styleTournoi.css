@@ -1,0 +1,73 @@
+*{
+    margin: 0%;
+  }
+  
+  body{
+      background-image: url(images/contact.jpg);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size:cover;
+      color: aliceblue;
+  }
+  
+  #navbarNav{
+    flex-grow: initial;
+  }
+    
+  .container-fluid {
+    width: 99.5%;
+    height: 99.5%;
+    background: rgba(0, 206, 209, 0.59);
+    margin: 0 0 0 0;
+    border: 1px solid aqua;
+    border-radius: 5px;
+    box-shadow: 0px 0px 20px 5px darkcyan;
+    display: flex;
+    justify-content:space-around;
+  flex-wrap: wrap;
+  align-items:center;
+  }
+  
+  .container-fluid > .carousel{
+  position: relative;
+    width: 30%;
+  }
+  
+  #carouselExampleSlidesOnly{
+    position: relative;
+    z-index: 1;
+    border: 1px solid aqua;
+    border-radius: 5px;
+    box-shadow: 0px 0px 20px 5px darkcyan;
+  
+  }
+  
+  .carousel-text{
+      position: absolute;
+      color:aqua;
+      z-index: 2;
+      top: 75%;
+      right: 40%;
+      border-radius: 5px;
+      text-shadow: 0px 0px 20px 4px rgb(253, 251, 251);
+      font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+  }
+  
+  .btn-info {
+    color: black; 
+    background-color:aqua; 
+    border: solid darkcyan;
+    border-radius: 5px;
+    box-shadow: 0px 0px 20px 5px darkcyan;
+  }
+  
+  .container-fluid-footer {
+    width: 99.5%;
+    height: 99.5%;
+    background: rgba(0, 206, 209, 0.59);
+    margin: 0 auto;
+    border: 1px solid aqua;
+    border-radius: 5px;
+    box-shadow: 0px 0px 20px 5px darkcyan;
+  }
+  
