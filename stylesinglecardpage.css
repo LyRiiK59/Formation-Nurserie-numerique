@@ -20,12 +20,17 @@
 .background-image {
     background-image: url(images/Fond02.jpg);
     background-size: cover;
-    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
-.filAriane {
-    margin-top: 10px;
-} 
+.fontstyle {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.fontsize-s {
+    font-size: small;
+}
 
 .single-card-info a:link {
     color: white;
@@ -83,15 +88,19 @@
     margin-right: 0;
 }
 
-.icon {
+.icons {
     color: white;
     text-decoration: none;
     margin-right: 10px;
     transition: all 0.2s ease-in-out;
 }
 
-.icon:hover {
-transform: scale(1.2);
+.icons:hover {
+    transform: scale(1.2);
+}
+
+.collapse {
+    display: none;
 }
 
 .collapse-advanced-search {
@@ -106,6 +115,28 @@ transform: scale(1.2);
     border-bottom-right-radius: 5px;
 }
 
+
+.star-rating{
+    color: white;
+    font-size: large;
+}
+/*create the star*/
+.myStar::before{
+    content:"\002605";
+}
+/*remove the default style (italic) of the star*/
+.myStar{
+    font-style: unset !important;
+}
+/*set active star color*/
+.is-active{
+    color:#fb8900;
+}
+/*set color on hover*/
+.myStar:not(.is-active):hover{
+    color: #fb8900;
+}
+
 .form-check-input {
     width: 12px;
     height: 12px;
@@ -114,11 +145,17 @@ transform: scale(1.2);
 .form-check {
     display: flex;
     align-items: center;
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .form-check-label {
     padding: 1px;
     margin-left: 2px;
+}
+
+.table-sell-cards td{
+    height: 44px;
 }
 
 thead {
@@ -136,3 +173,5 @@ thead {
     border-radius: 5px;
     box-shadow: 0px 0px 20px 5px darkcyan;
   }
+
+
