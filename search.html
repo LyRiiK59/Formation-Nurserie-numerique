@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cardfinder/Recherche</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="styleSearch.css" />
+    <link rel="shortcut icon" href="images/logo_cardfinder.jpg" />
+  </head>
+
+  <body>
+    <header class="sticky-top">
+      <nav
+        class="navbar navbar-expand-lg"
+        style="background-color: rgba(0, 206, 209, 0.59)"
+      >
+        <div class="container-fluid">
+          <a id="logo" href="accueil.html"
+            ><img src="images/logo_cardfinder.jpg" alt="logo" width="200"
+          /></a>
+          <form class="d-flex" role="search">
+            <input
+              class="form-control me-2"
+              id="search"
+              type="search"
+              placeholder="Que recherchez vous ?"
+              aria-label="Search"
+              style="background-color: rgba(0, 139, 139, 0.59)"
+            />
+            <button class="btn btn-outline-success text-dark" type="submit">
+              Rechercher
+            </button>
+          </form>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a
+                  class="nav-link active text-dark"
+                  aria-current="page"
+                  href="accueil.html"
+                  ><img src="images/maison.png" alt="accueil" width="16px" />
+                  Accueil</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-dark" href="profil.html"
+                  ><img src="images/profil.png" alt="profil" width="16px" />
+                  Profil</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-dark" href="message.html"
+                  ><img src="images/message.png" alt="message" width="16px" />
+                  Messagerie</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-dark" href="market.html"
+                  ><img src="images/panier.png" alt="message" width="16px" />
+                  Panier</a>
+              </li>
+            </ul>
+          </div>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+      </nav>
+    </header>
+
+    <nav class="fil_d_ariane">
+        <a href="index.html">Accueil</a>/
+        <a href="index.html">Recherche</a>
+    </nav>
+
+    <br />
+
+    <html>
+        <head>
+            <title>Recherche Avancée - Magic: The Gathering</title>
+            <link rel="stylesheet" type="text/css" href="style.css">
+        </head>
+        <body>
+            <div class="container">
+                <h2><u>Recherche :</u></h2>
+                <div class="search-container">
+                  <form class="d-flex" role="search">
+                    <input
+                      class="form-control me-2"
+                      id="search"
+                      type="search"
+                      placeholder="Que recherchez vous ?"
+                      aria-label="Search"
+                    />
+                    <button class="btn btn-outline-success text-dark" type="submit">
+                      Rechercher
+                    </button>
+                  </form>
+                </div>
+                <br>
+                <div class="advanced-search-container">
+                    <div class="advanced-search-row">
+                    </div>
+                    <div class="advanced-search-row">
+                        <label for="card-color">Couleur:</label>
+                        <select id="card-color">
+                            <option value="example1">Exemple 1</option>
+                            <option value="example2">Exemple 2</option>
+                        </select>
+                        <label for="card-rarity">Rareté:</label>
+                        <select id="card-rarity">
+                            <option value="example1">Exemple 1</option>
+                            <option value="example2">Exemple 2</option>
+                        </select>
+                    </div>
+                    <div class="advanced-search-row">
+                        <label for="card-type">Type:</label>
+                        <select id="card-type">
+                            <option value="example1">Exemple 1</option>
+                            <option value="example2">Exemple 2</option>
+                        </select>
+                        <label for="card-set">Edition:</label>
+                        <select id="card-set">
+                            <option value="example1">Exemple 1</option>
+                            <option value="example2">Exemple 2</option>
+                        </select>
+                        <label for="card-quality">Qualité:</label>
+                        <select id="card-quality">
+                            <option value="example1">Exemple 1</option>
+                            <option value="example2">Exemple 2</option>
+                        </select>
+                    </div>
+                    <div class="advanced-search-row">
+
+                        <label for="card-price">Prix:</label>
+                        <select id="card-price">
+                            <option value="example1">Exemple 1</option>
+                            <option value="example2">Exemple 2</option>
+                        </select>
+                    </div>
+                </div>
+                <div>
+                  <br>
+                    <h2><u>Résultats :</u></h2>
+
+                    <hr>
+
+                    <div class="sort-container">
+                      <label for="sort-by">Trier par:</label>
+                      <select id="sort-by">
+                        <option value="purchase-order">Date d'ajout</option>
+                        <option value="alphabetical-asc">Ordre alphabétique A-Z</option>
+                        <option value="alphabetical-desc">Ordre alphabétique Z-A</option>
+                        <option value="price-asc">Prix croissant</option>
+                        <option value="price-desc">Prix décroissant</option>
+                        <option value="seller-popularity">Popularité du vendeur</option>
+                      </select>
+
+                      <table class="table">
+                        <thead>
+                          <tr>
+                            <th scope="col">Nom de la carte</th>
+                            <th scope="col">Couleur</th>
+                            <th scope="col">Rareté</th>
+                            <th scope="col">Type</th>
+                            <th scope="col">Édition</th>
+                            <th scope="col">Qualité</th>
+                            <th scope="col">Prix</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <th scope="row">Lunarch Veteran</th>
+                            <td>White</td>
+                            <td>Commune</td>
+                            <td></td>
+                            <td></td>
+                            <td>Neuve blister</td>
+                            <td>99,99 €</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">Voja, Friend to Elves</th>
+                            <td>White</td>
+                            <td>Token</td>
+                            <td></td>
+                            <td></td>
+                            <td>Peu abîmée</td>
+                            <td>19,90 €</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">Gideon Jura</th>
+                            <td>White</td>
+                            <td>Mythic</td>
+                            <td></td>
+                            <td></td>
+                            <td>Très abîmée</td>
+                            <td>4 €</td>
+                        </tr>
+                        <tr>
+                          <th scope="row">Ugin, the Spirit Dragon</th>
+                          <td>Colorless</td>
+                          <td>Mythic</td>
+                          <td></td>
+                          <td></td>
+                          <td>Comme neuve</td>
+                          <td>78 €</td>
+                        </tr>
+                        <tr>
+                          <th scope="row">Jace Beleren</th>
+                          <td>Blue</td>
+                          <td>Mythic</td>
+                          <td></td>
+                          <td></td>
+                          <td>Neuve sous blister</td>
+                          <td>112 €</td>
+                        </tr>
+                        <tr>
+                          <th scope="row">Chandra Nalaàr</th>
+                          <td>Red</td>
+                          <td>Rare</td>
+                          <td></td>
+                          <td></td>
+                          <td>Comme neuve</td>
+                          <td>56 €</td>
+                        </tr>
+                        <tr>
+                          <th scope="row">Jeska, Thrice Reborn</th>
+                          <td>Red</td>
+                          <td>Mythic</td>
+                          <td></td>
+                          <td></td>
+                          <td>Très abîmée</td>
+                          <td>2,50 €</td>
+                        </tr>
+                        <tr>
+                          <th scope="row">Liliana Vess</th>
+                          <td>Black</td>
+                          <td>Rare</td>
+                          <td></td>
+                          <td></td>
+                          <td>Peu abîmée</td>
+                          <td>11 €</td>
+                        </tr>
+                        <tr>
+                          <th scope="row">Nicol Bolas, le dévastateur</th>
+                          <td>Black, blue and Red</td>
+                          <td>Mythic</td>
+                          <td></td>
+                          <td></td>
+                          <td>Très abîmée</td>
+                          <td>9,50 €</td>
+                        </tr>
+                        <tr>
+                          <th scope="row">Nissa, Ascended Animist</th>
+                          <td>Green</td>
+                          <td>Mythic</td>
+                          <td></td>
+                          <td></td>
+                          <td>Comme neuve</td>
+                          <td>50 €</td>
+                        </tr>
+                        <tr>
+
+                            
+                          </tr>
+                        </tbody>
+                      </table>
+                 </div>
+                    <div id="loadMore"></div>
+                    <div id="noResults"></div>
+                  </div>
+                  
+    <br>          
+
+    <footer class="text-dark" style="background-color: rgba(0, 206, 209, 0.59)">
+      <div class="container-fluid-footer">
+        <div class="d-flex justify-content-center">
+          <h3 id="informations"><u>Informations</u></h3>
+        </div>
+        <div class="d-flex justify-content-around">
+          <p class="copyright">Copyright &copy;</p>
+          <a class="CGV-U" href="CGV-U.html"
+            >Conditions générales de vente et d'utilisation</a
+          >
+          <a class="legal" href="who_are_we.html">Mentions légales</a>
+          <a class="Confidentialité" href="confidentialité.html"
+            >Confidentialité</a
+          >
+          <a class="contact_us" href="contact_us.html">Nous contacter</a>
+        </div>
+        <div class="d-flex justify-content-center">
+          <i class="bi bi-instagram"></i> Instagram
+          <i class="bi bi-facebook"></i> Facebook
+          <i class="bi bi-linkedin"></i> Linkedin
+          <i class="bi bi-tiktok"></i> TikTok
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js"
+      integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="search.js"
+    ></script>
+  </body>
+</html>
