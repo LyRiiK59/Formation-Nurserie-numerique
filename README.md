@@ -1,4 +1,4 @@
-Au cours de la formation "Nurserie numérique" dispensée par l'AFPA et 1Formation1Job dans les locaux d'Euratechnologie à Lille, j'ai pu notamment :
+Au cours de la formation "Nurserie numérique" d'une durée d'un mois dispensée par l'AFPA et 1Formation1Job dans les locaux d'Euratechnologie à Lille, j'ai pu notamment :
 - découvrir les métiers de l'informatique,
 - Acquérir des notions en Cybersécurité et de Technicien réseaux et
 - Pratiquer le développement web front et back
@@ -6,7 +6,9 @@ Au cours de la formation "Nurserie numérique" dispensée par l'AFPA et 1Formati
 En groupe de 3 personnes, nous avons eu pour projet d'élaborer la page d'accueil d'un site internet sur le sujet de notre choix.
 Nous avons décidé de créer un site d'échanges de cartes du jeu Magic.
 Après avoir observé que le site principal existant dans ce domaine est https://www.cardmarket.com/fr/Magic
-Nous avons eu l'idée de proposer notre site intitulé cardfinder.com avec un meilleur design. En voici quelques images :
+Nous avons eu l'idée de proposer notre site intitulé cardfinder.com avec un meilleur design.
+Le projet servait de "fil rouge" tout au long de la formation et permettait de mettre en pratique ce que nous avions appris chaque semaine. Nous avions peu de temps pour nous y consacrer donc le site n'est pas terminée.
+En voici malgré tout quelques images :
 
 La page d'accueil :
 ![Capture d'écran 2024-11-12 204210](https://github.com/user-attachments/assets/545b88ec-36dd-44a3-b494-51de7edb5429)
